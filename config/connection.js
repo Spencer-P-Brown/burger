@@ -13,7 +13,7 @@ var connection;
 
 console.log(process.env.NODE_ENV)
 if (process.env.NODE_ENV === "production") {
-    conncetion = mysql.createConnection({
+    connection = mysql.createConnection({
         port: 3306,
         host: "i943okdfa47xqzpy.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
         user: "sc1kth7gp7zcchev",
