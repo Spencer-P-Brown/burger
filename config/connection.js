@@ -11,6 +11,7 @@ var mysql = require("mysql");
 
 var connection;
 
+console.log(process.env.NODE_ENV)
 if (process.env.NODE_ENV === "production") {
     conncetion = mysql.createConnection({
         port: 3306,
@@ -30,6 +31,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Make connection.
+console.log(connection)
 connection.connect(function(err) {
     if (err) {
         console.error("error connecting: " + err.stack);
