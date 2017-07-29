@@ -1,0 +1,50 @@
+  html {
+    font-family: 'Righteous', cursive, sans-serif;
+    color: #70400d;
+
+  }
+
+body {
+	background-color: #D8880A;
+}
+
+h1 {
+	font-family: 'Monoton', cursive, sans-serif;
+	color: #9B1D20;
+}
+
+img {
+	height: 200px;
+	width:250px;
+}
+
+h4 {
+	color: #60630a;
+}
+
+button {
+	color:black;
+	background: #9B1D20;
+	border-color: #70400d;
+	border-radius: 5px;
+
+}
+
+button:active {
+	background: #007499;
+}
+
+button:focus{
+	background:#007499;
+}
+
+label{
+	font-size:1.5em;
+	color: #007499;
+}
+
+#ca{
+	border: 6px double #007499;
+    border-radius: 5px;
+    padding: 5px;
+}
