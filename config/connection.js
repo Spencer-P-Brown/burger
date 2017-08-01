@@ -1,14 +1,6 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
 
-// var connection = mysql.createConnection({
-//     port: 3306,
-//     host: "localhost",
-//     user: "root",
-//     password: "CYBERDYNEsystems!984",
-//     database: "burgers_db"
-// });
-
 var connection;
 
 console.log(process.env.NODE_ENV)
@@ -20,7 +12,9 @@ if (process.env.NODE_ENV === "production") {
         password: "f02v6xcbtrvt39ns",
         database: "uqt0va05p1zzb7sp"
     });
-} else {
+} 
+
+else {
     connection = mysql.createConnection({
         port: 3306,
         host: "localhost",
